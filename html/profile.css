@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgray;
+}
+.profile-card{
+    background-color: antiquewhite;
+    padding: 18px 24px;
+    text-align: center;
+    border-radius: 20px;
+    width: 350px;
+    transition: transform  0.3s ease;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.8);
+}
+.profile-card:hover{
+    transform: translateY(-5px);
+}
+.profile-img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px groove blueviolet;
+}
+p{
+    margin: 0px 4px 4px 0px;
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+    word-spacing: 2px;
+    font-weight: 400;
+}
+.title{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.bio{
+    line-height: 20px;
+    letter-spacing: 1px;
+    font-size: 14px;
+    margin-bottom: 24px;
+}
+.btn{
+    border: none;
+    background-color: purple;
+    color: white;
+    padding: 12px 24px;
+    width: 100%;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 0.9rem;
+    transition: 0.3s ease-in;
+}
+.btn:hover{
+    background-color: lightskyblue;
+}
