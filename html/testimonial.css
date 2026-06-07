@@ -1,0 +1,33 @@
+.testimonial-card{
+    width: 450px;
+    background-color: white;
+    padding: 30px;
+    border-left: 5px solid black;
+     border-radius: 0 12px 12px 0;
+     box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+     font-family: sans-serif;
+     position: relative;
+}
+.quote-mark{
+    font-size: 5rem;
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+    left: 20px;
+    line-height: 1;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.quote-text{
+    position: relative;
+    font-size: 1rem;
+    font-style: italic;
+    z-index: 2;
+    margin: 0 2px 20px 20px;
+}
+.author-info strong{
+    display: block;
+    margin-bottom: 5px;
+}
+.author-info span{
+    font-size: 0.9rem;
+}

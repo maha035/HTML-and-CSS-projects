@@ -1,0 +1,38 @@
+.timeline{
+    max-width: 500px;
+    position: relative;
+    padding-left: 30px;
+    font-family: sans-serif;
+}
+.timeline::before{
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    background-color: black;
+    top: 4px;
+    left: 9px;
+}
+.timeline-item{
+    margin-bottom: 20px;
+    position: relative;
+}
+.timeline-dot{
+    width: 12px;
+    position: absolute;
+    height: 12px;
+    background-color: black;
+    border-radius: 50%;
+    border: 2px solid white;
+    left: -28px;
+    top: 4px;
+}
+.timeline-date{
+    font-weight: bold;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+.timeline-content{
+    font-size: 0.9rem;
+    font-style: italic;
+}
