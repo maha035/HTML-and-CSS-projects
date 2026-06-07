@@ -1,0 +1,21 @@
+.social{
+   display: flex;
+   gap: 20px;
+   font-family: sans-serif;
+}
+.btn {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 10px 16px;
+    color: white;
+    transition: opacity 0.2s;
+}
+.btn:hover{
+    opacity: 0.9s;
+
+}
+.insta{background-color: orangered;}
+.fb{background-color: blue;}
+.twitter{background-color: skyblue;}

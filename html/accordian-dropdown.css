@@ -1,0 +1,39 @@
+.accordian-dropdown{
+    width: 100%;
+    max-width: 500px;
+    border: 1px solid black;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.accordian-input{
+    display: none;
+}
+.accordian-header{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    user-select: none;
+}
+.accordian-content{
+    max-height: 0;
+    overflow: hidden;
+    background-color: white;
+    transition: max-height 0.3s ease-out;
+}
+.accordian-content p{
+    line-height: 1.4;
+    padding: 16px;
+    margin: 0;
+}
+.accordian-input:checked ~ .accordian-content{
+    max-height: 400px;
+}
+.accordian-input:checked ~ .accordian-header .icon{
+    transform: rotate(180deg);
+}
+.icon{
+    transition: transform 0.3s;
+} 
