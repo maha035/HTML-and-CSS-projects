@@ -1,0 +1,19 @@
+.clock{
+    background: #000; 
+    color: #00ff66;
+    padding: 20px 40px;
+    border-radius: 12px;
+     font-family: monospace;
+     align-items: baseline;
+     display: inline-flex;
+     box-shadow: 0 0 15px rgba(0, 255, 102 ,0.6);
+}
+.time{
+    font-size: 3.5rem;
+    font-size: bold;
+    letter-spacing: 2px;
+}
+.ampm{
+    margin-left: 10px;
+    font-size: 1.3rem;
+}
