@@ -4,7 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Counter app</title>
-    <script src="counter.js"></script>
+    <style>
+      .counter-container{
+        text-align: center;
+        background-color:lightblue;
+        padding: 30px;
+        width: 350px;
+        border-radius: 12px;
+        box-shadow: 0 4px 6px;
+      }
+      button {
+        border: none;
+        padding: 8px 10px;
+        border-radius: 5px;
+        background-color: darkslategrey;
+        color: white;
+        margin-left: 8px;
+      }
+      button:hover{
+        padding: 8px 10px;
+        border-radius: 5px;
+        background-color: darkolivegreen;
+        color:white;
+        transform: scale(0.9);
+        filter: drop-shadow(2px 2px 2px);
+      }
+      
+      
+    </style>
 </head>
 <body>
      <div class="counter-container">
@@ -12,7 +39,7 @@
         <button id="decrement">Decrease</button>
         <button id="reset">Reset</button>
         <button id="increment">Increase</button>
-      </div>
+      </div>    
      <script src="counter.js"></script>
 </body>
 </html>

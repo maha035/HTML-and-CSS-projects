@@ -15,3 +15,4 @@ function updateDisplay() {
 incBtn.addEventListener('click', () => { count++; updateDisplay(); });
 decBtn.addEventListener('click', () => { count--; updateDisplay(); });
 resBtn.addEventListener('click', () => { count = 0; updateDisplay(); });
+
