@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+    background-color: black;
+    font-family: sans-serif;
+}
+.footer-col{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.footer-col h4{
+    color: white;
+    margin-bottom: 9px;
+    font-size: 1rem;
+}
+.footer-col a{
+    text-decoration: none;
+    color: blue;
+    margin-bottom: 8px;
+    font-size: 0.9rem;
+}
+.footer-col a:hover{
+    color: black;
+    background-color: beige;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
