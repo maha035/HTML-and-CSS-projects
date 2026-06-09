@@ -1,0 +1,27 @@
+.search-box{
+    display: flex;
+    max-width: 400px;
+    border: 2px solid black;
+    border-radius: 30px;
+    overflow: hidden;
+    background-color: aliceblue;
+}
+.search-box input{
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+}
+.search-box button{
+    background: none;
+    border: none;
+    padding: 0 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.search-box:focus-within{
+    
+    border-color:purple;
+    box-shadow: 0 2px 6px rgb(236, 110, 230, 0.5);
+}
