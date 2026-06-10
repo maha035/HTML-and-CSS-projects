@@ -1,0 +1,22 @@
+.breadcrum{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+}
+.breadcrum li + li::before{
+    padding: 0 10px;
+    content: "/";
+    color: blue;
+}
+.breadcrum a{
+    text-decoration: none;
+    color: black;
+}
+.breadcrum:hover{
+    text-decoration: underline;
+}
+.breadcrum .current{
+    color: blue;
+}
