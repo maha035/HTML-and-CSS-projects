@@ -1,0 +1,23 @@
+.faq-list{
+    max-width: 400px;
+    font-family: sans-serif;
+}
+.faq-item{
+
+   background-color: khaki;
+    border-radius: 8px;
+    border: 1px solid black;
+    padding: 8px;
+    margin-bottom: 12px;
+}
+.faq-item summary{
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+}
+.faq-item p{
+    margin-top: 10px;
+    margin-bottom: 0;
+    line-height: 1.5;
+    font-size: 0.9rem;
+}
