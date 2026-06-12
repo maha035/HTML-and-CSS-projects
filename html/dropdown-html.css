@@ -1,0 +1,38 @@
+.dropdown{
+    position: relative;
+    display: inline-block;
+    font-family: sans-serif;
+}
+.drop-btn{
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+.drop-menu{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    min-width: 160px;
+    box-shadow:  0 8px 16px rgba(0,0,0,0.5);
+    border-radius: 6px;
+    padding: 6px 0;
+    z-index: 10;
+    margin-top: 10px;
+}
+.drop-menu a{
+    text-decoration: none;
+    padding: 10px 16px;
+    display: block;
+    color: black;
+    font-size: 0.9rem;
+}
+.drop-menu a:hover{
+    background-color: antiquewhite;
+}
+.dropdown:hover .drop-menu{display: block;}
