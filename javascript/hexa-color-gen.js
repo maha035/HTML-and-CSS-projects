@@ -13,3 +13,4 @@ colorBtn.addEventListener('click', () =>{
     document.body.style.backgroundColor = hexString;
     hexDisplay.textContent = hexString;
 })
+
