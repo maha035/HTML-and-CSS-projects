@@ -1,0 +1,38 @@
+.step-indicator{
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+}
+.step{
+    width: 32px;
+    height: 32px;
+    background-color: grey;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.step.active{background-color: green;}
+.line{
+    height: 4px;
+    width: 80px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.line.active{
+    background-color: green;
+}
+.label{
+    position: absolute;
+    top: 40px;
+    color: grey;
+    font-size: 0.9rem;
+}
+.step.active .label{
+    color: black;
+    font-weight: bold;
+}
