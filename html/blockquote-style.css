@@ -1,0 +1,19 @@
+.quote{
+    margin: 20px 0;
+    padding: 10px 0 10px 24px;
+    border-left: 4px solid purple;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.quote p{
+    margin: 0 0 8px 0;
+    font-size: 1.4rem;
+    font-style: italic;
+    color: blueviolet;
+   line-height: 1.4;
+}
+.quote cite{
+    font-size: 0.95rem;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
