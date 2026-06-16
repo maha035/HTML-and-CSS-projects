@@ -1,0 +1,33 @@
+.newsletter-box{
+    background-color: antiquewhite;
+    width: 360px;
+    padding: 24px;
+    border-radius: 10px;
+    border: 1px solid brown;
+    font-family: sans-serif;
+}
+.newsletter-box h3{
+    margin: 0 0 16px 0;
+}
+.input-inline{
+    display: flex;
+    gap: 8px;
+
+}
+.input-inline input{
+    padding: 10px;
+    flex: 1;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid black;
+}
+.input-inline button{
+    border: none;
+    background-color: brown;
+    color: white;
+    border-radius: 4px;
+    padding: 0 16px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
