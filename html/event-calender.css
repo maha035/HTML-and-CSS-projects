@@ -1,0 +1,26 @@
+.calender-grid{
+    display: grid;
+    width: 180px;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 6px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.day{
+    padding: 10px 0;
+    background-color: azure;
+    border-radius: 4px;
+    font-size: 0.9rem;
+
+}
+.day.header{
+    background-color: blanchedalmond;
+    font-weight: bold;
+}
+.day.gap{
+    background-color: transparent;
+}
+.day.active{
+    background-color: aquamarine;
+    font-weight: bold;
+}
