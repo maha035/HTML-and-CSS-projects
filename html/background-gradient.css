@@ -1,0 +1,17 @@
+.gradient-hero{
+    background: linear-gradient(135deg, #0f172a , #1e1b4b);
+     padding: 60px;
+     border-radius: 16px;
+     text-align: center;
+
+}
+.gradient-text{
+    font-size: 2.5rem;
+    font-family: sans-serif;
+    font-weight: 800;
+    background: linear-gradient(to right, #38bdf8 ,#c084fc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+
+}
