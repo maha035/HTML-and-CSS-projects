@@ -1,0 +1,21 @@
+.has-tooltip{
+    position: relative;
+    text-decoration: underline;
+    font-family: sans-serif;
+}
+.has-tooltip::after{
+    content: attr(data-tooltip);
+    position: absolute;
+    top: 125%;
+    left: 50%;
+    transform: translateX(-20%);
+    padding: 6px 10px;
+    background-color: antiquewhite;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    white-space: nowrap;
+     display: none;
+}
+.has-tooltip:hover::after{
+    display: block;
+}
