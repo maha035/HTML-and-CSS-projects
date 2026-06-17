@@ -1,0 +1,24 @@
+.split-screen{
+    display: flex;
+    height: 300px;
+    font-family: sans-serif;
+}
+.split-left , 
+.split-right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.split-left{background-color: #ec4899;}
+.split-right{background-color: #6366f1;}
+@media (max-width:600px) {
+    .split-screen{
+        flex-direction: column;
+        height: 400px;
+        color: white;
+    }
+    
+}
