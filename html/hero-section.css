@@ -1,0 +1,21 @@
+.portfolio-hero{
+    padding: 80px 20px;
+    max-width: 600px;
+    font-family: system-ui , sans-serif;
+    background-color: beige;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.8);
+    
+}
+.portfolio-hero h1{
+    font-size: 3rem;
+    margin: 0 0 16px 0;
+    letter-spacing: -1px;
+    color: brown;
+    text-shadow: 0 2px 4px  burlywood;
+}
+.portfolio-hero p{
+    margin: 0;
+    line-height: 1.6;
+    font-size: 1.25rem;
+}
