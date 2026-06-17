@@ -1,1 +1,0 @@
-const counterValue= document.getElementById('counter-value');

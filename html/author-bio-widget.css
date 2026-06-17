@@ -1,0 +1,24 @@
+.author-widget{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px;
+    background-color: #f8fafc;
+    border-radius: 8px;
+    width: max-content;
+
+}
+.avatar{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: #cbd5e1;
+}
+.author-widget strong{
+    color: black;
+    font-size: 0.9rem;
+}
+.author-widget p{
+    margin: 2px 0 0 0;
+    font-size: 0.8rem;
+}
