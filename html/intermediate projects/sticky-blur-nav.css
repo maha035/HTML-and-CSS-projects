@@ -1,0 +1,14 @@
+.blur-nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 20px;
+    background-color: darkgray;
+    backdrop-filter: blur(16px);
+    z-index: 100;
+    border-bottom: 5px sold rgba(173, 148, 148, 0.2);
+    font-family: sans-serif;
+}
