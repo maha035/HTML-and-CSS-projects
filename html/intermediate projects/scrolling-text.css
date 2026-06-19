@@ -1,0 +1,17 @@
+.marquee{
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: sans-serif;
+    padding: 12px 0;
+    font-weight: bold;
+    background: #fef08a;
+    color: #854d0e;
+}
+.marquee-track{
+    display: inline-block;
+    animation: scrollMarque 10s linear infinite;
+}
+@keyframes scrollMarque {
+    0% {transform: translateX(0%);}
+    100%{transform: translateX(-50%);}
+}
