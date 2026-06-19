@@ -1,0 +1,62 @@
+body{
+    background-color: darkslategray;
+    color: white;
+    padding: 30px;
+    margin: 0;
+    font-family: sans-serif
+}
+.bento-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    max-width: 1000px;
+    grid-template-rows: 150px;
+}
+.box{
+    background-color: darkgray;
+    color: black;
+    border: 1px solid darkolivegreen;
+    padding: 20px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.bento-grid h3{
+    font-size: 1.2rem;
+    margin: 0;
+}
+.item1{
+    grid-column: span 2;
+    grid-row: span 2;
+    background: linear-gradient(135deg , darkgray , #3b3b3b);
+}
+
+.item2{
+       grid-column: span 2;
+}
+.item3{
+    grid-row: span 2;
+}
+.item4{
+    grid-column: span 1;
+
+}
+.item5{
+    grid-column: span 2;
+}
+@media (max-width:600px){
+    .bento-grid{
+        grid-template-columns: repeat(2 , 1fr);
+    }
+   
+    .item1 , .item2 , .item3 , .item4 , .item5{
+        grid-row: span 2;
+        grid-column: span 2;
+    }
+    .bento-grid > .box:hover{
+        background-color: aliceblue;
+        transform: scale(0.98);
+    }
+}
