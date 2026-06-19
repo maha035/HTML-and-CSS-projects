@@ -1,0 +1,22 @@
+.menu-btn{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    width: 30px;
+    cursor: pointer;
+}
+.menu-btn input{display: none;}
+.bar{
+    height: 4px;
+    width: 100%;
+    background: #0f172a;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+}
+.menu-btn input:checked ~ .bar:nth-child(3){opacity: 0;}
+.menu-btn input:checked ~ .bar:nth-child(2){
+    transform: translateY(10px) rotate(45deg);
+}
+.menu-btn input:checked ~ .bar:nth-child(1){
+    transform: translateY(-10px) rotate(-45deg);
+}
