@@ -1,0 +1,39 @@
+.modal-open-btn{
+    text-decoration: none;
+    background-color: beige;
+    padding: 12px 16px;
+    border-radius: 12px;
+    color: black;
+    font-family: sans-serif;
+}
+.modal-wrapper{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+    opacity: 0;
+    visibility: hidden;
+}
+.modal-wrapper:target{
+    opacity: 1;
+    visibility: visible;
+}
+.modal-body{
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    width: 320px;
+    font-family: sans-serif;
+}
+.close-modal-btn{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+}
