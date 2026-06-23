@@ -1,0 +1,42 @@
+.magamenu-menu{
+    font-family: sans-serif;
+    color: white;
+    padding: 16px;
+    background-color:goldenrod;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.menu-trigger{
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+.magamenu-panel{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: darkkhaki;
+    padding: 25px;
+    margin-top: 14px;
+    gap: 40px;
+    border-radius: 12px;
+    box-shadow: 0 2px 14px rgba(0,0,0,0.4);
+}
+.magamenu-panel h4{
+    margin: 0 0 10px 0;
+    border-bottom: 2px solid white;
+    font-weight: bold;
+}
+.magamenu-panel a{
+    display: block;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+    color: white;
+}
+.magamenu-panel a:hover{
+    color: brown;
+}
+.magamenu-menu:hover .magamenu-panel{
+    display: flex;
+}
