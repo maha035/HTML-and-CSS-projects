@@ -1,0 +1,16 @@
+.press-3d{
+    border: none;
+    padding: 12px 10px;
+    border-radius: 8px;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+    cursor: pointer;
+    box-shadow: 0 6px 0 lightpink;
+    transition: all 0.1s ease;
+}
+.press-3d:active{
+    transform: translateY(4px);
+    box-shadow: 0 2px 0 lightcoral;
+}
