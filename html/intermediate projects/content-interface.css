@@ -1,0 +1,8 @@
+.tabs { display: flex; flex-wrap: wrap; max-width: 400px; font-family: sans-serif; }
+.tabs input { display: none; }
+.tabs label { padding: 10px 20px; background: #f1f5f9; cursor: pointer; border-radius: 6px 6px 0 0; }
+.content { width: 100%; padding: 20px; background: white; border: 1px solid #e2e8f0; display: none; }
+
+#t1:checked ~ label[for="t1"] { background: white; border: 1px solid #e2e8f0; border-bottom: none; }
+#t2:checked ~ label[for="t2"] { background: white; border: 1px solid #e2e8f0; border-bottom: none; }
+#t1:checked ~ .c1, #t2:checked ~ .c2 { display: block; }
