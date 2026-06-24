@@ -1,0 +1,27 @@
+.shine-card{
+    width: 200px;
+    height: 120px;
+    background-color: #1e1b4b;
+    color: white;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    font-family: sans-serif;
+
+}
+.shine-card::after{
+    content: ' ';
+    position: absolute;
+    top: -50%;
+    left: -60%;
+    background: linear-gradient(to right , transparent , rgba(255, 255,255,0.6) , transparent);
+    width: 30%;
+    height: 200%;
+    transform: rotate(30deg);
+    transition: 0.5s;
+}
+.shine-card:hover::after{
+    left: 130%;
+}
