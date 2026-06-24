@@ -1,0 +1,30 @@
+.responsive-table{
+    width: 100%;
+    border-collapse: collapse;
+    font-family: sans-serif;
+}
+.responsive-table  th,
+.responsive-table td{
+    padding: 12px;
+    border: 2px solid black;
+}
+@media (max-width:500px){
+    .responsive-table thead{
+        display: none;
+    }
+    .responsive-table tr{
+        display: block;
+        margin-bottom: 12px;
+        border: 1px solid black;
+    }
+    .responsive-table td{
+        display: flex;
+        justify-content: space-between;
+        border: none;
+    }
+    .responsive-table td::before{
+        content: attr(data-label);
+        font-weight: bold;
+
+    }
+}
