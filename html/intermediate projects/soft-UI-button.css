@@ -1,0 +1,15 @@
+body { background: #e0e8f6; } /* Background color must match exactly */
+.btn {
+  padding: 14px 28px;
+  border: none;
+  background: #e0e8f6;
+  border-radius: 12px;
+  color: #475569;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 6px 6px 12px blue, -6px -6px 12px #ffffff;
+  transition: box-shadow 0.2s;
+}
+.btn:active {
+  box-shadow: inset 3px 3px 6px blue, inset -3px -3px 6px #ffffff;
+}
