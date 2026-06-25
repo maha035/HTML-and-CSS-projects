@@ -1,0 +1,28 @@
+.nested-sidebar{
+    width: 200px;
+    background-color: bisque;
+    padding: 20px;
+    font-family: sans-serif;
+}
+.nav-row{
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.nested-child{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    padding-left: 12px;
+}
+.nested-child a{
+    text-decoration: none;
+    display: block;
+    color: black;
+    padding: 6px;
+    font-size: 0.9rem;
+}
+.nav-row.parent:hover 
+.nested-child{
+    max-height: 100px;
+}
